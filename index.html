@@ -74,6 +74,26 @@
 <a href="#" id="back-to-top" title="Zurück nach oben"><i class="fas fa-arrow-up"></i></a>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" defer></script>
+    
+<script>
+    // Back-to-top Button Funktionalität
+    const backToTopButton = document.getElementById("back-to-top");
+
+    window.onscroll = function () {
+        // Button anzeigen, wenn der Nutzer 100px oder weiter gescrollt hat
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    };
+
+    // Smooth Scrolling beim Klick auf den Button
+    backToTopButton.addEventListener("click", function(event) {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+</script>
 </body>
 
 </html>
