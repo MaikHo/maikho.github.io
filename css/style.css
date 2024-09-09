@@ -103,6 +103,31 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Back-to-top Button Styling */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0366d6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    display: none; /* Standardmäßig unsichtbar */
+    font-size: 24px;
+    text-decoration: none;
+    z-index: 100;
+    transition: background-color 0.3s ease;
+}
+
+#back-to-top:hover {
+    background-color: #0056b3;
+}
+
+#back-to-top i {
+    pointer-events: none; /* Verhindert, dass das Icon den Klick beeinflusst */
+}
+
 /* Responsive Design für Bildschirme kleiner als 768px (Tablet und Handy) */
 @media (max-width: 768px) {
     nav ul {
