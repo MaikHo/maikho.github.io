@@ -29,8 +29,8 @@ header p {
 
 nav ul {
     list-style-type: none;
-    padding: 0;
-    margin: 5;
+    padding: 1rem 0; /* Erhöht die Höhe der Navigationsleiste */
+    margin: 0;
     background-color: #0366d6;
     text-align: center;
 }
@@ -101,4 +101,21 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Responsive Design für Bildschirme kleiner als 768px (Tablet und Handy) */
+@media (max-width: 768px) {
+    nav ul {
+        padding: 1rem 0; /* Lässt etwas Platz oben und unten */
+    }
+    
+    nav ul li {
+        display: block; /* Die Links stehen untereinander */
+        margin: 0.5rem 0; /* Fügt etwas Platz zwischen den Links hinzu */
+    }
+    
+    nav ul li a {
+        display: block; /* Links füllen die gesamte Breite */
+        padding: 1rem;
+    }
 }
