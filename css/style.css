@@ -33,9 +33,14 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 nav ul li a:hover {
     text-decoration: underline;
+    background-color: #0056b3;
+    border-radius: 5px;
 }
 section {
     margin: 2rem auto;
