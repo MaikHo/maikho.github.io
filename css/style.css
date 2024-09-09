@@ -30,7 +30,7 @@ header p {
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 5;
     background-color: #0366d6;
     text-align: center;
 }
