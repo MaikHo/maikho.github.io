@@ -57,7 +57,7 @@ nav ul li a:hover {
 section {
     margin: 2rem auto;
     max-width: 800px;
-    padding: 0 1rem;
+    padding: 1rem;
     background-color: #ffffff; /* Weißer Hintergrund für Abschnitte */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sanfter Schatten */
