@@ -126,10 +126,16 @@ footer a:hover {
     text-align: center;
 }
 
-.tech-item i {
+.tech-item i, .tech-item img {
     margin-right: 0.5rem;
     font-size: 1.2rem; /* Größere Icons für bessere Sichtbarkeit */
 }
+
+.tech-item img {
+    width: 24px; /* Größe des Bildes anpassen */
+    height: 24px; /* Größe des Bildes anpassen */
+}
+
 
 /* Icons für die verwendeten Technologien */
 .fab, .fas, .devicon {
