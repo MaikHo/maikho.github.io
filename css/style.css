@@ -113,6 +113,19 @@ footer a:hover {
     justify-content: center; /* Zentriert die Items innerhalb des Containers */
 }
 
+#contact a {
+    color: blue;               /* Linkfarbe */
+    text-decoration: none;     /* Unterstreichung entfernen */
+}
+
+#contact a:visited {
+    color: blue;               /* auch besuchte Links bleiben blau */
+}
+
+#contact a:hover {
+    text-decoration: underline; /* optional: Unterstreichung nur beim Hover */
+}
+
 .tech-item {
     display: flex;
     align-items: center;
