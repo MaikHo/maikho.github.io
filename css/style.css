@@ -69,6 +69,13 @@ h2 {
     color: #0073b1; /* LinkedIn Blau für Überschriften */
 }
 
+#technologies h3 {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333; /* optional: etwas dunkler für Kontrast */
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
